@@ -130,6 +130,9 @@ namespace AStarDotnet
             return default(T1);
         }
 
-        public void Clear() => data.Clear();
+        public void Clear() {
+            data.Clear();
+            count = 0;
+        } 
     }
 }
