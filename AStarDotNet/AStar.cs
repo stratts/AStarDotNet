@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AStarDotnet
+namespace AStarDotNet
 {
     public interface IGraph<T> 
     {

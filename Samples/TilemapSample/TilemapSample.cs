@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Numerics;
-using AStarDotnet;
+using AStarDotNet;
 
 namespace TilemapSample
 {
@@ -41,7 +41,7 @@ namespace TilemapSample
 
         public float GetDistance(int srcX, int srcY, int destX, int destY) 
         {
-            var dist =  new Vector2(destX, destY) - new Vector2(srcX, srcY);
+            var dist = new Vector2(destX, destY) - new Vector2(srcX, srcY);
             return dist.Length();
         }
 
